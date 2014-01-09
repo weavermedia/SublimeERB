@@ -1,3 +1,5 @@
+### Quick edit - removed the less common ERB tags that control whitespace.
+
 A Port of TextMate's ERB support for Sublime Text 2
 
 ## Installation
