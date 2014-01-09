@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 import re
 
-ERB_BLOCKS = [['<%=', '%>'], ['<%', '%>'], ['<%-', '-%>'], ['<%=', '-%>'], ['<%#', '%>'], ['<%', '-%>']]
+ERB_BLOCKS = [['<%=', '%>'], ['<%', '%>'], ['<%#', '%>']]
 ERB_REGEX = '<%(=?|-?|#?)\s{2}(-?)%>'
 
 # matches opening bracket that is not followed by the closing one
